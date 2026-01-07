@@ -18,7 +18,7 @@ We have provided the following files that can be used for model development to p
 	3.curvularia_data_original (csv)
 	4.curvularia_data_original (Excel)
 
--->code, which conttain 4 files:
+-->code, which contain 4 files:
 	1. 01_data_preprocessing_spearman
 	2. 02_data_preprocessing_AIC
 	3. 03_model_development_MLR
@@ -39,4 +39,5 @@ The analysis was conducted using R (version ≥ 4.2.0) with the following packag
 - library(randomForest)
 
 ## Data availability statement
+
 The full raw datasets generated during the current study are not publicly available due to institutional restrictions but may be made available from the corresponding author upon reasonable request and subject to approval.
