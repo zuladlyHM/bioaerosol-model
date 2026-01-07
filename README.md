@@ -25,7 +25,7 @@ We have provided the following files that can be used for model development to p
 	4. 04_model_development_PCR
 
 ## Reproducibility
-R scripts are provided in folder named 'code', and running this script in numerical order (`01` → `04`) will reproduce the full modeling workflow using the example dataset.
+R scripts are provided and running this script in numerical order (`01` → `04`) will reproduce the full modeling workflow using the example dataset.
 
 ## Requirements
 The analysis was conducted using R (version ≥ 4.2.0) with the following packages:
@@ -41,3 +41,4 @@ The analysis was conducted using R (version ≥ 4.2.0) with the following packag
 ## Data availability statement
 
 The full raw datasets generated during the current study are not publicly available due to institutional restrictions but may be made available from the corresponding author upon reasonable request and subject to approval.
+
