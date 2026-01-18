@@ -61,6 +61,8 @@ summary(modelPCR)
 
 ###############################################################################
 ############################ Recursive Feature Elimination (RFE) ##############
+##### Recursive Feature Elimination is good for identifying good PCs for model development#######
+##### However, in some cases, the first few PCs could be the answer, hence, you may need to try each PC if necessary #####
 
 library(caret)
 library(randomForest)  # Optional, for RF-based RFE
@@ -186,5 +188,6 @@ bptest(model_PCR$finalModel)  # p-value < 0.05 indicates heteroscedasticity
 
 ## Shapiro-wilk normality test ##
 shapiro.test(residuals(model_PCR$finalModel))
+
 
 
