@@ -30,6 +30,7 @@ attach(MydataAIC)
 
 
 ##To check the AIC, lowest value is better##
+## Sometimes, lower value may not always be the choice, you may need more variables to met the requirement of model evaluation ##
 lmfull <- lm(Cur ~ ., data=MydataAIC[,3:17])
 summary (lmfull)
 AIC(lmfull)
@@ -41,6 +42,7 @@ step(lmfull, direction = "both")
 ##Results from curvularia_data_afterAICselecti##
 ##Step:  AIC=572.25 Cur ~ `Rain (3)` + `WD (1)` + `WS (7)` + `MinT (0)` + `MaxT (7)` + `MeanT (0)` + `MeanT (1)##
 ## Use the significant variables from AIC for model development ##
+
 
 
 
