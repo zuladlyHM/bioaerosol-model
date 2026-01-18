@@ -3,7 +3,7 @@
 This repository provides the analysis workflow and example data required to reproduce the modeling framework presented in the associated manuscript.
 
 ## Overview ##
-The study applies statistical techniques, including Spearman correlation test, multilple linear regression (MLR), and combination of MLR and Principal Component Analysis (PCA), 
+The study applies statistical techniques, including Spearman correlation test, multiple linear regression (MLR), and combination of MLR and Principal Component Analysis (PCA), 
 to evaluate the relationship between airborne fungal spore concentrations and meteorological parameters in a paddy agroecosystem across different phenological stages of paddy growth.
 
 Due to institutional data-sharing restrictions, the full raw dataset used in the study cannot be publicly released. 
@@ -41,4 +41,5 @@ The analysis was conducted using R (version ≥ 4.2.0) with the following packag
 ## Data availability statement
 
 The full raw datasets generated during the current study are not publicly available due to institutional restrictions but may be made available from the corresponding author upon reasonable request and subject to approval.
+
 
